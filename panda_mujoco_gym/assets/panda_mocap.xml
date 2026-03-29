@@ -220,6 +220,8 @@
                         <geom mesh="hand_3" material="white" class="visual"/>
                         <geom mesh="hand_4" material="off_white" class="visual"/>
                         <geom mesh="hand_c" class="collision"/>
+
+                        <camera name="wrist_camera" pos="0.05 0 0.05" euler="0 3.1415 0" fovy="60"/>
   
                         <!-- refer to the panda_grasptarget in panda.urdf in panda_gym -->
                         <body name="ee_center_body" pos="0 0 0.105">
